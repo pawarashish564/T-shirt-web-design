@@ -73,73 +73,7 @@
       transition: .3s cubic-bezier(.4, .4, 0, 1)
     }
   </style>
-  <style type="text/css">
-    .notifications .notification-wrapper {
-      overflow: visible
-    }
-
-    .notifications .form-message {
-      overflow: visible;
-      margin: 10px;
-      width: calc(100% - 20px);
-      transition: .5s cubic-bezier(.4, .4, 0, 1);
-      box-shadow: 0 0 15px rgba(0, 0, 0, .14);
-      border-radius: 6px;
-      background-color: #fff;
-      padding: 15px;
-      align-items: center;
-      align-content: center;
-      justify-content: left;
-      display: flex;
-      flex-direction: row;
-      transition: .4s linear
-    }
-
-    .notifications .form-message i {
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      background-repeat: no-repeat;
-      background-position: 50%;
-      margin-right: 10px
-    }
-
-    .notifications .form-message i.error {
-      background-color: #fd5c5c;
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwIDAgOCA4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMCAwTDYgNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49ImJldmVsIi8+CjxwYXRoIGQ9Ik02IDBMMCA2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDEpIiBzdHJva2U9IndoaXRlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiLz4KPC9zdmc+Cg==)
-    }
-
-    .notifications .form-message i.success {
-      background-color: #67c23a;
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwIDAgOCA4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMCAyLjY2NjY3TDIgNC42NjY2N0w1LjMzMzMzIDAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEuMzMzNSAyKSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
-    }
-
-    .notifications .form-message div {
-      letter-spacing: 0;
-      line-height: 1;
-      font-size: 14px
-    }
-
-    .notifications .form-message div.error-message {
-      color: red
-    }
-
-    .notifications .form-message div.success-message {
-      color: #67c23a
-    }
-
-    .notifications .form-enter-active,
-    .notifications .form-leave-active {
-      transition: .5s cubic-bezier(.4, .4, 0, 1)
-    }
-
-    .notifications .form-enter,
-    .notifications .form-leave-to {
-      -webkit-transform: translateY(-60px);
-      transform: translateY(-60px);
-      opacity: 0
-    }
-  </style>
+  
   <style type="text/css">
     .spinner[data-v-195d969c] {
       width: 16px;
@@ -790,71 +724,6 @@
     }
   </style>
   <style type="text/css">
-    .notifications {
-      display: block;
-      position: fixed;
-      z-index: 5000
-    }
-
-    .notification-wrapper {
-      display: block;
-      overflow: hidden;
-      width: 100%;
-      margin: 0;
-      padding: 0
-    }
-
-    .notification-title {
-      font-weight: 600
-    }
-
-    .vue-notification-template {
-      background: #fff
-    }
-
-    .vue-notification,
-    .vue-notification-template {
-      display: block;
-      box-sizing: border-box;
-      text-align: left
-    }
-
-    .vue-notification {
-      font-size: 12px;
-      padding: 10px;
-      margin: 0 5px 5px;
-      color: #fff;
-      background: #44a4fc;
-      border-left: 5px solid #187fe7
-    }
-
-    .vue-notification.warn {
-      background: #ffb648;
-      border-left-color: #f48a06
-    }
-
-    .vue-notification.error {
-      background: #e54d42;
-      border-left-color: #b82e24
-    }
-
-    .vue-notification.success {
-      background: #68cd86;
-      border-left-color: #42a85f
-    }
-
-    .vn-fade-enter-active,
-    .vn-fade-leave-active,
-    .vn-fade-move {
-      transition: all .5s
-    }
-
-    .vn-fade-enter,
-    .vn-fade-leave-to {
-      opacity: 0
-    }
-  </style>
-  <style type="text/css">
     .loading[data-v-3d40f285] {
       position: absolute;
       top: 0;
@@ -952,10 +821,7 @@
   <div id="__nuxt">
     <div id="__layout">
       <section data-v-65fe18e1="" class="container">
-        <div data-v-65fe18e1="" class="form-messages">
-          <div class="notifications" style="width: 380px; top: 0px; left: calc(50% - 190px);"><span></span></div>
-          <div class="notifications" style="width: 380px; top: 0px; left: calc(50% - 190px);"><span></span></div>
-        </div>
+       
         <div data-v-65fe18e1="" class="StudioCanvas"><span class="modals"></span>
           <div data-s-66e5ee07-e9fb-47f8-96c6-d2ee282a96e5="" data-r-66e5ee07-e9fb-47f8-96c6-d2ee282a96e5=""
             data-rid="15" class="sd">
