@@ -9,4 +9,4 @@
 
 ## working site
 
-see the demo here [https://pawarashish564.github.io/T-shirt-web-design/index.html]
+see the demo here ![click here](https://pawarashish564.github.io/T-shirt-web-design/index.html)
