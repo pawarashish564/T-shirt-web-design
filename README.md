@@ -1,4 +1,4 @@
-# T-shirt-web-design 
+# T-shirt-web-design ![version](https://img.shields.io/badge/version-1.0.0-blue)
 
 > Fluent Web design
 
@@ -6,9 +6,9 @@
 
 <!-- > include terms/tags that can be searched -->
 
-## Description
+<!-- ## Description -->
 
-Stable version : ![version](https://img.shields.io/badge/version-1.0.0-blue)
+<!-- Stable version : ![version](https://img.shields.io/badge/version-1.0.0-blue) -->
 
 
 ## working site
