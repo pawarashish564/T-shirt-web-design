@@ -6,6 +6,10 @@
 
 <!-- > include terms/tags that can be searched -->
 
+## Description
+
+Stable version : ![version](https://img.shields.io/badge/version-1.0.0-blue)
+
 
 ## working site
 
