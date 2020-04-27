@@ -34,15 +34,7 @@
       transition: none
     }
 
-    .container.page-enter[data-v-65fe18e1],
-    .container.page-leave-to[data-v-65fe18e1] {
-      opacity: 0
-    }
-
-    .container.page-enter-active[data-v-65fe18e1],
-    .container.page-leave-active[data-v-65fe18e1] {
-      transition: .3s cubic-bezier(.4, .4, 0, 1)
-    }
+    
   </style>
 
   <style type="text/css">
@@ -59,20 +51,7 @@
       overflow: hidden
     }
 
-    .sd::-webkit-scrollbar {
-      display: none
-    }
-
-    input,
-    textarea {
-      -webkit-appearance: none
-    }
-
-    iframe {
-      height: 100%;
-      width: 100%
-    }
-
+   
     .image {
       position: relative
     }
@@ -101,285 +80,20 @@
       overflow: visible
     }
 
-    a,
-    a.icon,
-    a.text {
-      -webkit-tap-highlight-color: rgba(0, 0, 0, .15)
-    }
-
     .fixed {
       z-index: 2
     }
 
-    .button {
-      transition: .4s cubic-bezier(.4, .4, 0, 1)
-    }
-
-    .button,
-    .link {
-      cursor: pointer
-    }
-
-    .submitLoading {
-      opacity: .5 !important;
-      pointer-events: none !important
-    }
-
-    .richText,
-    .richText p {
-      display: block
-    }
-
-    .richText p {
-      width: 100%;
-      margin: 10px 0;
-      min-height: 28px;
-      font-family: inherit;
-      color: inherit
-    }
-
-    .richText img {
-      width: 100%
-    }
-
-    .richText h1 {
-      font-size: 3em;
-      line-height: 1.2;
-      margin: 20px 0
-    }
-
-    .richText h1,
-    .richText h2 {
-      width: 100%;
-      font-weight: 700;
-      display: block;
-      font-family: inherit;
-      color: inherit
-    }
-
-    .richText h2 {
-      font-size: 2em;
-      margin: 10px 0
-    }
-
-    .richText h3 {
-      font-weight: 700
-    }
-
-    .richText h3,
-    .richText h4 {
-      width: 100%;
-      display: block;
-      font-size: 1em;
-      margin: 10px 0;
-      font-family: inherit;
-      color: inherit
-    }
-
-    .richText h4 {
-      font-weight: 600
-    }
-
-    .richText blockquote {
-      padding: 10px 15px;
-      margin: 10px 0;
-      border-left: 3px solid rgba(0, 0, 0, .15);
-      font-style: italic;
-      font-family: inherit;
-      color: inherit
-    }
-
-    .richText [data-type=embed_code] {
-      position: relative;
-      margin: 40px 0;
-      border-radius: 2px
-    }
-
-    .richText [data-type=embed_code][data-embed-code-type=figma] iframe,
-    .richText [data-type=embed_code][data-embed-code-type=googlemaps] iframe,
-    .richText [data-type=embed_code][data-embed-code-type=instagram] iframe,
-    .richText [data-type=embed_code][data-embed-code-type=slideshare] iframe,
-    .richText [data-type=embed_code][data-embed-code-type=spotify] iframe,
-    .richText [data-type=embed_code][data-embed-code-type=twitter] iframe,
-    .richText [data-type=embed_code][data-embed-code-type=vimeo] iframe,
-    .richText [data-type=embed_code][data-embed-code-type=xd] iframe,
-    .richText [data-type=embed_code][data-embed-code-type=youtube] iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%
-    }
-
-    .richText [data-type=embed_code][data-embed-code-type=instagram] {
-      padding-top: 100%
-    }
-
-    .richText [data-type=embed_code][data-embed-code-type=instagram] blockquote {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden
-    }
-
-    .richText [data-type=embed_code][data-embed-code-type=codepen] iframe {
-      min-height: 400px
-    }
-
-    .richText [data-type=embed_code][data-embed-code-type=slideshare] {
-      padding-top: 56.25%
-    }
-
-    .richText [data-type=embed_code_empty] {
-      display: none
-    }
-
-    .richText ul {
-      display: block;
-      margin-left: 1.5em
-    }
-
-    .richText ul li {
-      list-style: disc
-    }
-
-    .richText ol {
-      margin-left: 1.5em;
-      display: block
-    }
-
-    .richText ol li {
-      list-style: decimal
-    }
-
-    .richText li {
-      color: inherit
-    }
-
-    .richText hr {
-      height: 1px;
-      border-radius: .5px;
-      border-top: 1px solid #ccc
-    }
-
-    .richText p>code {
-      display: inline;
-      padding: 0 5px;
-      margin: 2px;
-      border-radius: 6px;
-      border: 1px solid rgba(0, 0, 0, .1);
-      background: #eee;
-      font-family: inherit;
-      color: inherit
-    }
-
-    .richText pre {
-      background: #eee;
-      padding: 25px 36px;
-      border-radius: 6px;
-      margin: 20px 0;
-      white-space: pre-wrap
-    }
-
-    .richText pre code {
-      color: inherit;
-      border: none;
-      padding: 0;
-      font-weight: inherit;
-      font-family: Menlo, Monaco, Courier New, monospace
-    }
-
-    .richText strong {
-      font-weight: 900
-    }
-
-    .richText em,
-    .richText strong {
-      display: inline;
-      font-family: inherit;
-      color: inherit
-    }
-
-    .richText em {
-      font-weight: inherit
-    }
-
-    .richText u {
-      font-weight: inherit
-    }
-
-    .richText a,
-    .richText u {
-      display: inline;
-      font-family: inherit;
-      color: inherit
-    }
-
-    .richText a {
-      text-decoration: underline
-    }
-
-    .richText s {
-      text-decoration: line-through
-    }
+    
   </style>
   <style type="text/css">
     .publish-studio-style {
       transition: .4s cubic-bezier(.4, .4, 0, 1)
     }
   </style>
+ 
   <style type="text/css">
-    .design-canvas__modal {
-      z-index: 2;
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      transition: none
-    }
-
-    .design-canvas__modal.isNone {
-      transition: none
-    }
-
-    .design-canvas__modal.v-enter-active .studio-canvas,
-    .design-canvas__modal.v-leave-active .studio-canvas {
-      transition: .4s cubic-bezier(.4, .4, 0, 1)
-    }
-
-    .design-canvas__modal.v-enter-active .studio-canvas *,
-    .design-canvas__modal.v-leave-active .studio-canvas * {
-      transition: none !important
-    }
-
-    .design-canvas__modal .design-canvas__modal__base {
-      top: 0;
-      left: 0;
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      transition: .4s cubic-bezier(.4, .4, 0, 1)
-    }
-
-    .design-canvas__modal .studio-canvas {
-      pointer-events: none;
-      height: 100%
-    }
-
-    .design-canvas__modal .studio-canvas>* {
-      background: none !important;
-      pointer-events: none
-    }
-  </style>
-  <style type="text/css">
-    @font-face {
-      font-family: grandam;
-      src: url(https://storage.googleapis.com/studio-front/fonts/grandam.ttf) format("truetype");
-      font-style: normal;
-      font-weight: 400
-    }
-
+   
     .StudioCanvas {
       height: auto;
       min-height: 100vh;
@@ -427,23 +141,8 @@
       line-height: 1
     }
   </style>
-  <style type="text/css">
-    .container[data-v-55626504] {
-      transition: none
-    }
-
-    .container.page-enter[data-v-55626504],
-    .container.page-leave-to[data-v-55626504] {
-      opacity: 0
-    }
-
-    .container.page-enter-active[data-v-55626504],
-    .container.page-leave-active[data-v-55626504] {
-      transition: .3s cubic-bezier(.4, .4, 0, 1)
-    }
-  </style>
-  <link data-n-head="ssr" rel="stylesheet" href="./T-shirt webshop_files/font-awesome.min.css">
-
+ 
+ 
 </head>
 
 <body class="vsc-initialized">
@@ -1744,25 +1443,7 @@
                 max-width: 100%;
               }
             </style>
-            <style>
-              .sd[data-s-b8bbf684-5637-4b6e-be8f-f8ca9211ab4a] {
-                font-size: 24px;
-                max-width: 100%;
-              }
-            </style>
-            <style>
-              .sd[data-s-7cb0a471-006e-4afa-96d9-dc2b538b6175] {
-                color: #FFFFFF;
-                font-size: 24px;
-                max-width: 100%;
-              }
-            </style>
-            <style>
-              .sd[data-s-94b3c6ba-edc5-4af4-825d-21409844818e] {
-                font-size: 24px;
-                max-width: 100%;
-              }
-            </style>
+          
             <style>
               .sd[data-s-37c8f2a2-00d4-4f2b-aff4-3ae7d5b1c5dc] {
                 align-content: center;
